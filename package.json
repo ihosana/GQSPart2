@@ -1,0 +1,18 @@
+{
+  "name": "api-pedidos",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node App.js",
+    "dev": "nodemon App.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^10.1.0",
+    "supertest": "^6.2.2"
+  }
+}
